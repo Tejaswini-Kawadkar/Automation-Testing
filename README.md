@@ -8,18 +8,18 @@ The Java code is an example of automated testing using Selenium WebDriver.
 
 ### Steps:
 
-Setting Up WebDriver:
+Setting Up WebDriver:<br>
 The code sets the system property to specify the location of the ChromeDriver executable file. It initializes a new instance of the ChromeDriver, which controls the Chrome browser.
 
 <br>
 Opening a Webpage:<br>
 The WebDriver navigates to the specified URL: "https://the-internet.herokuapp.com/login".
 
-<br><br>
+<br>
 Locating Web Elements:<br>
 It finds the username input field using its ID attribute and stores it in the username WebElement variable. Similarly, it finds the password input field and the login button using their respective locators (ID and CSS selector).
 
-<br><br>
+<br>
 Interacting with Web Elements:<br>
 It verifies if the username and password input fields are displayed and enabled using the isDisplayed() and isEnabled() methods. It then enters the username "tomsmith" into the username input field and "SuperSecretPassword!" into the password input field using the sendKeys() method.
 
