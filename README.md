@@ -23,10 +23,10 @@ It finds the username input field using its ID attribute and stores it in the us
 Interacting with Web Elements:
 It verifies if the username and password input fields are displayed and enabled using the isDisplayed() and isEnabled() methods. It then enters the username "tomsmith" into the username input field and "SuperSecretPassword!" into the password input field using the sendKeys() method.
 
-<br><br>
+<br>
 Performing Actions:
 After entering the credentials, it clicks on the login button using the click() method.
 
-<br><div>
+<br>
 Extracting Text:
-It extracts the text from a "<div>" element on the page using a CSS selector and stores it in a string variable s. Finally, it prints the extracted text to the console.
+It extracts the text from a "< div >" element on the page using a CSS selector and stores it in a string variable s. Finally, it prints the extracted text to the console.
