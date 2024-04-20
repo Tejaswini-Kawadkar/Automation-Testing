@@ -10,7 +10,7 @@ The Java code is an example of automated testing using Selenium WebDriver.
 
 Setting Up WebDriver:<br>
 The code sets the system property to specify the location of the ChromeDriver executable file. It initializes a new instance of the ChromeDriver, which controls the Chrome browser.
-<br>
+<br><br>
 Opening a Webpage:<br>
 The WebDriver navigates to the specified URL: "https://the-internet.herokuapp.com/login".
 <br><br>
